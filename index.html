@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TechMart Electronics: Bangalore February 2025 revenue</title>
+<style>
+  :root { --bg:#f7f8fa; --ink:#1b2430; --muted:#5b6675; --line:#d9dee5; --accent:#1f5fbf; --panel:#ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12161c; --ink:#e8ecf1; --muted:#9aa5b4; --line:#2a323d; --accent:#6aa3ff; --panel:#1a2029; }
+  }
+  html { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width:44rem; margin:0 auto; padding:3rem 1.25rem 4rem; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 .5rem; }
+  h2 { font-size:1.25rem; margin:2.5rem 0 .75rem; }
+  p.lead { color:var(--muted); margin:0 0 2rem; }
+  .answer { font-size:3.5rem; font-weight:700; color:var(--accent); line-height:1; margin:0; }
+  .answer-note { color:var(--muted); margin:.4rem 0 0; }
+  .scroll { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; background:var(--panel); font-family:system-ui, sans-serif; font-size:.95rem; }
+  th, td { text-align:left; padding:.6rem .75rem; border-bottom:1px solid var(--line); white-space:nowrap; }
+  code { font:.9em ui-monospace, Menlo, monospace; background:var(--panel); padding:.1em .35em; border:1px solid var(--line); border-radius:3px; }
+  footer { margin-top:3rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--muted); font-size:.95rem; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bangalore revenue, February 2025</h1>
+  <p class="lead">Regional performance analysis of the TechMart Electronics Q1 2025 sales archive.</p>
+
+  <p class="answer">482</p>
+  <p class="answer-note">Total revenue, rounded to the nearest integer.</p>
+
+  <h2>Method</h2>
+  <p>I loaded <code>sales_data.csv</code> (149 transactions; columns date, city, product, quantity, price), kept rows where <code>city = "Bangalore"</code> and the month in <code>date</code> is Feb, and computed Revenue = SUM(quantity × price).</p>
+
+  <h2>Matching transaction</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>date</th><th>city</th><th>product</th><th>quantity</th><th>price</th><th>quantity × price</th></tr></thead>
+      <tbody><tr><td>2025-Feb-5</td><td>Bangalore</td><td>Headset</td><td>1</td><td>482.32</td><td>482.32</td></tr></tbody>
+    </table>
+  </div>
+  <p>Only one Bangalore transaction falls in February. 482.32 rounds to <strong>482</strong>.</p>
+
+  <footer>
+    Analyst contact: <!--email_off-->23f3003123@ds.study.iitm.ac.in<!--/email_off-->
+  </footer>
+</main>
+</body>
+</html>
